@@ -40,3 +40,14 @@ C9D7F8
     font-size: 35px;
     font-weight: 600;
 }
+.navbar .loginbtn {
+    font-size: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: var(--primary-color);
+}
+.navbar .loginbtn:hover{
+    border: 2px solid var(--secondary-color);
+    padding: 5px;
+
+}
