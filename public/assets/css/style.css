@@ -53,14 +53,26 @@ C9D7F8
 }
 img{
     vertical-align: middle;
-    width: 500px;
-    height: 500px;
+    min-width: 100%;
+    height: 30rem;
 }
 /* .slider{
     display: none;
 } */
-.container{
-    max-width: 1000px;
+.container .slider{
     position: relative;
     margin: auto;
 }
+
+#dot{
+    margin:0 auto;
+    text-align:center;
+    }
+    
+    .dot{
+    background:#d3d3d3;
+    padding:8px;
+    margin:10px 5px;
+    display:inline-block;
+    border-radius:50%;
+    }
