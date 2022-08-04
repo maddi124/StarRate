@@ -57,15 +57,18 @@ img{
     min-width: 100%;
     height: 30rem;
 }
+.container{
+   width: 800px;
+   height: 500px;
+   border-radius: 10px;
+   overflow: hidden;
+
+}
 .slide{
     display: flex;
     width: 500%;
     height: 500px;
 }
-.container{
-    
-}
-
 #dot{
     margin:0 auto;
     text-align:center;
